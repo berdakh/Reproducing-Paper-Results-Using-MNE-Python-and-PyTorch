@@ -1,0 +1,546 @@
+
+164
+
+268
+
+250
+
+2921
+
+235
+
+481
+
+1177
+
+513
+280
+
+593
+
+441
+
+334
+
+2243
+
+1943
+
+1670
+
+25891
+
+1384
+
+NA
+
+9016
+
+2766
+2375
+
+5295
+
+3433
+
+1236
+
+(continued)
+
+Sz free
+
+Sz recurrence after
+3 days
+
+Sz free
+
+Sz free for
+20 months, then
+lost follow-up
+
+Sz recurrence after
+10 days
+
+NA
+
+Sz free
+
+Sz free
+Sz recurrence after
+1 day
+
+Sz free
+
+Sz free
+
+Ganglioneurocytoma
+
+Sz free
+
+No. of HFOs No. of HFOs Outcome (followdetected (10 detected (90 up at 24 months)
+min)
+min)
+
+| BRAIN COMMUNICATIONS 2021: Page 4 of 20
+
+Downloaded from https://academic.oup.com/braincomms/article/4/1/fcab267/6420212 by Autonomous Organization of Education “Nazarbayev University” user on 20 February 2025
+
+1
+
+Pt Sex Age at Epilepsy
+AntiNo. of
+No. of
+% of elec- Duration No.
+MRI lesion/ Electrode
+No.
+surgery duration
+seizure electrodes electrodes trodes
+of EEG
+of sz
+FDG-PET coverage
+(years) (years) medications placed
+resected resected (days) captured hypometa
+bolism
+
+Table 1 Cohort characteristics
+
+4
+Y. Zhang et al.
+
+15
+6
+
+20
+
+12
+
+14
+
+15 F
+16 M
+
+17 M
+
+18 M
+
+19 M
+
+6
+
+5
+
+15
+
+15
+6
+
+18
+
+ECZ, CLB
+
+LCM, BVC,
+FBM
+CNZ, CLP,
+ECZ, LCM,
+LVT
+
+TPM, LTG
+CLB, OXC
+
+LTG, LCM,
+OXC, PPN
+
+0
+
+0
+
+112
+
+128
+
+29
+
+60
+41
+
+0
+
+118
+
+102
+104
+
+70
+
+0.00%
+
+0.00%
+
+24.58%
+
+58.82%
+39.42%
+
+0.00%
+
+14
+
+4
+
+12
+
+4
+11
+
+4
+
+8
+
+100
+
+5
+
+4
+2
+
+37
+
+R FTPO
+
+L T/L TP
+
+L P/L TP
+
+L TO/L TO
+
+LFTPO
+
+L FTPO
+
+L FTPO
+
+L TPO/L TPO L FTPO
+L PO/L PO L FTPO
+
+R FP/R FP
+
+Pathology
+
+No resection
+NA
+(RNS placement of R frontoparietal area)
+L TPO
+FCD 2a, Gliosis
+L parietooccipital Ulegyria, FCD 3d,
+resection
+gliosis
+L temporal lobecGliosis
+tomy plus RNS
+NA
+No resection
+(RNS placement of L sensorimotor
+cortex)
+No resection
+NA
+(RNS placement of L temporal, parietal,
+and occipital
+area)
+
+Surgery
+
+NA
+
+NA
+
+220
+
+469
+
+3028
+
+6867
+15782
+
+NA
+
+465
+
+1211
+1920
+
+722
+
+NA
+
+Sz free
+Sz recurrence after
+23 days
+Sz recurrence after
+4 days
+NA
+
+NA
+
+No. of HFOs No. of HFOs Outcome (followdetected (10 detected (90 up at 24 months)
+min)
+min)
+
+BRAIN COMMUNICATIONS 2021: Page 5 of 20
+
+Downloaded from https://academic.oup.com/braincomms/article/4/1/fcab267/6420212 by Autonomous Organization of Education “Nazarbayev University” user on 20 February 2025
+
+M ¼ male; F ¼ female; FRs ¼ fast ripples; NA ¼ not applicable; RNS ¼ responsive nerve stimulator; FCD ¼ focal cortical dysplasia; SOZ ¼ seizure onset zone; Sz ¼ seizure.
+L ¼ left; R ¼ right; F ¼ frontal; P ¼ parietal; T ¼ temporal; O ¼ occipital.
+CLB ¼ Clobazam; LVT ¼ Levetiracetam; LCM ¼ Lacosamide; CNZ ¼ Clonazepam; RFD ¼ Rufinamide; PPN ¼ Perampanel; LTG ¼ Lamotrigine; OXC ¼ Oxcarbazepine; PB ¼ Phenobarbital; TPM ¼ Topiramate; BVC ¼ Brivaracetam; FBM ¼ Felbamate;
+CLP ¼ Clorazepate; ECZ ¼ Eslicarbazepine.
+
+19
+
+14 F
+
+Pt Sex Age at Epilepsy
+AntiNo. of
+No. of
+% of elec- Duration No.
+MRI lesion/ Electrode
+No.
+surgery duration
+seizure electrodes electrodes trodes
+of EEG
+of sz
+FDG-PET coverage
+(years) (years) medications placed
+resected resected (days) captured hypometa
+bolism
+
+Table 1 Continued
+
+HFO classification using deep learning
+
+| 5
+
+6
+
+| BRAIN COMMUNICATIONS 2021: Page 6 of 20
+
+Methods
+Patient cohort
+This was a retrospective cohort study. Children (below
+age 21) with medically refractory epilepsy (typically with
+monthly or greater seizure frequency and failure of more
+than three first-line anti-seizure medications) who had
+intracranial electrodes implanted for the planning of epilepsy surgery with anticipated cortical resection with the
+Pediatric Epilepsy Program at UCLA were consecutively
+recruited between August 2016 and August 2018.
+Diagnostic stereo-EEG evaluation (not intended for resective surgery) was excluded (Table 1).
+
+Subdural electrode placement
+Macroelectrodes, including platinum grid electrodes
+(10 mm intercontact distance) and depth electrodes (platinum, 5 mm intercontact distance), were surgically
+implanted. The total number of electrode contacts in each
+subject ranged from 40 to 128 (median 96 contacts). The
+placement of intracranial electrodes was mainly guided by
+the results of scalp video-EEG recording and neuroimaging
+studies. All electrode plates were stitched to adjacent
+plates, the edge of the dura mater, or both, to minimize
+movement of subdural electrodes after placement.
+
+Acquisition of three-dimensional
+(3D) brain surface images
+We obtained preoperative high-resolution 3D magnetization-prepared rapid acquisition with gradient echo
+(MPRAGE) T1-weighted image of the entire head. A
+FreeSurfer-based 3D surface image was created with the
+location of electrodes directly defined on the brain surface, using post-implant computed tomography (CT)
+images.39 In addition, intraoperative pictures were taken
+with a digital camera before dural closure to enhance
+spatial accuracy of electrode localization on the 3D brain
+surface. Upon re-exposure for resective surgery, we visually confirmed that the electrodes had not migrated compared to the digital photo obtained during the electrode
+implantation surgery.
+
+Intracranial EEG recording
+Standard protocol approvals,
+registrations and patient consents
+The institutional review board at UCLA approved the use
+of human subjects and waived the need for written
+informed consent. All testing was deemed clinically relevant for patient care, and also all the retrospective EEG
+data used for this study were de-identified before data extraction and analysis. This study was not a clinical trial,
+and it was not registered in any public registry.
+
+Patient evaluation
+All children with medically refractory epilepsy referred
+during the study period underwent a standardized presurgical evaluation, which—at a minimum—consisted of inpatient video-EEG monitoring, high resolution (3.0 T)
+brain MRI and 18 fluoro-deoxyglucose positron emission
+tomography (FDG-PET), with MRI-PET co-registration.26
+The margins and extent of resections were determined
+mainly based on seizure onset zone (SOZ), clinically
+defined as regions initially exhibiting sustained rhythmic
+waveforms at the onset of habitual seizures. In some
+cases, the seizure onset zones were incompletely resected
+to prevent an unacceptable neurological deficit.
+
+Intracranial EEG (iEEG) recording was obtained using
+Nihon Kohden Systems (Neurofax 1100A, Irvine, CA,
+USA). The study recording was acquired with a digital
+sampling frequency of 2000 Hz, which defaults to a proprietary Nihon Kohden setting of a low frequency filter
+of 0.016 Hz and a high frequency filter of 600 Hz at the
+time of acquisition. For each subject, separate 10-min
+and 90-min EEG segments from slow-wave sleep were
+selected at least 2 h before or after seizures, before antiseizure medication tapering and before cortical stimulation mapping, which typically occurred 2 days after the
+implant. All the study iEEG data were part of the clinical
+EEG recording.
+
+Automated detection of HFOs
+A customized average reference was used for the HFO analysis, with the removal of electrodes containing significant
+artefacts.26,28,40 Candidate interictal HFOs were identified
+by an automated short-term energy detector (STE).41,42 This
+detector considers HFOs as oscillatory events with at least
+six peaks and a centre frequency occurring between 80 and
+500 Hz. The root mean square (RMS) threshold was set at
+five standard deviations (SD), and the peak threshold was
+set at three SD. The HFO events are segments of EEG signals with durations ranging from 60 to 200 ms (see SI for
+
+Downloaded from https://academic.oup.com/braincomms/article/4/1/fcab267/6420212 by Autonomous Organization of Education “Nazarbayev University” user on 20 February 2025
+
+mitigate potential labelling errors, we then generalized
+this approach to our central task of discovering eHFOs
+by replacing experts’ inputs with inexact weak labels
+implied by clinical outcomes and by using the ‘purification power’ of DL to automatically distill eHFOs.
+Furthermore, (i) we proved the generalizability of this approach by using patient-wise cross-validation, implying a
+DL algorithm trained by EEG data from a large and diverse enough retrospective cohort is likely applicable to
+future patients; and (ii) we reverse engineered interpretable salient features of the DL-discovered eHFOs and
+showed that they aligned with current expert knowledge.
+
+Y. Zhang et al.
+
+HFO classification using deep learning
+
+BRAIN COMMUNICATIONS 2021: Page 7 of 20
+
+| 7
+
+duration distribution). We referred to these detected events
+as candidate HFOs (c-HFOs).
+
+Human expert classification of
+HFOs
+A human expert (HN: board certified in clinical neurophysiology and epilepsy, with experience in HFO analysis) classified c-HFOs in each patient’s 10-min EEG
+segments into three classes: HFOs with spikes (spk-HFO),
+HFOs without spikes (non-spk-HFO) and artefacts using
+RippleLabs graphic user interface,42 based on three
+images (unfiltered EEG tracing, filtered EEG tracing [80–
+
+500 Hz] and time-frequency plot). Artefacts are false-positive events, including ringing (filtering of sharp transients),19 as well as muscle and background fluctuations
+(see examples in Fig. 1). Another expert with similar
+qualifications (SH) independently scored c-HFOs from
+two representative patients, and inter-rater reliability was
+examined using Cohen’s kappa statistics.
+
+Supervised deep learning networks
+using expert labels
+The general workflow of the DL training and inference
+were shown in the flowchart (Fig. 2).
+
+Downloaded from https://academic.oup.com/braincomms/article/4/1/fcab267/6420212 by Autonomous Organization of Education “Nazarbayev University” user on 20 February 2025
+
+Figure 1 Automated detection of HFOs and classification of HFOs by a human expert. After each EEG sample was arranged with a
+referential montage, the short-term energy (STE) HFO detector was applied to detect candidate HFO events (A). The detected HFO events
+were marked in the original tracing (B). Each detected HFO event was reviewed by a human expert to classify into HFO with spike (spk-HFO)
+(C), HFO without spike (D), and artefacts: ringing artefact (E) and background noise (F). EEG ¼ electroencephalogram; HFOs ¼ high-frequency
+oscillations; STE ¼ short-term energy.
+
+8
+
+| BRAIN COMMUNICATIONS 2021: Page 8 of 20
+
+Y. Zhang et al.
+
+Feature representation of c-HFOs
+Each c-HFO was represented by a one-second window,
+with the c-HFO was located at the centre (0 ms), and
+including 500 ms of EEG signal before and after. To utilize the power of CNN, we captured the time-frequency
+domain features as well as signal morphology information of the c-HFO window via three images (Fig. 3A).
+The time-frequency plot (scalogram) was generated by
+continuous Gabor Wavelets ranging from 10 Hz to
+500 Hz.42 The EEG tracing plot was generated on a
+2000  2000 image by scaling the time-series signal into
+the 0–2000 range to represent the EEG waveform’s
+morphology. The amplitude-coding plot was generated to
+represent the relative amplitude of the time-series signal:
+for every time point, the pixel intensity of a column of
+the image represented the signal’s raw value at that time.
+These three images were resized into the standard size
+(224  224), serving as the input to the neural network.
+
+Two-step deep learning model architecture
+Given the expert labelling with three labels (artefacts,
+spk-HFO and non-spk-HFO), the training of the deep
+neural network (DNN) model was formulated as two
+binary classification steps. Step 1 (artefact detector): we
+differentiated between artefacts and ‘Real HFOs’, defined
+as the union of spk-HFOs and non-spk-HFOs. All ‘Real
+HFOs’ were labelled as the positive samples and the
+
+artefacts were the negative samples. Step 2 (spk-HFO detector) classified the ‘Real HFOs’ into spk-HFO and nonspk-HFO; the spk-HFO were defined as positive samples,
+and the non-spk-HFO were defined as negative samples.
+The artefact detector and spike detector’s architectures
+are identical and adapted from ResNet1843 with a modification in the last few layers to accommodate the binary
+classification tasks. Specifically, the last layer of the
+resnet18 was modified to be three fully connected layers
+with LeakyReLU, BatchNorm and 10% dropout in between. The output of the model was fed into a sigmoid
+function to bound the output between 0 and 1, representing the probability of each task. The input comprising
+three image channels and the architecture of the networks
+are shown in Fig. 3B. For the artefact detector, only the
+time-frequency information was used. Hence time-frequency plots were repeated three times and concatenated
+together as the input to the artefact detector. For the
+spk-HFO detector, concatenation of the three feature-representing images (time-frequency plot, EEG tracing plot
+and amplitude-coding plot) served as input.
+
+Training and performance analysis
+There were two types of training conducted: patient-wise
+cross-validation and all-patients training. For patient-wise
+cross-validation, one patient was selected at a time as the
+test set, and the remaining patients were used for model
+
+Downloaded from https://academic.oup.com/braincomms/article/4/1/fcab267/6420212 by Autonomous Organization of Education “Nazarbayev University” user on 20 February 2025
+
+Figure 2 Processing workflow. Our study’s overall data processing workflow is shown as a flowchart.
+
+HFO classification using deep learning
+
+BRAIN COMMUNICATIONS 2021: Page 9 of 20
+
+| 9
+
+training. All events were pooled across the rest of the
+patients, with 10% randomly sampled to serve as a validation set and the remaining 90% used for training. In
+all-patients training, five-fold cross-validation was conducted across the pooled data across the full patient cohort. For each fold, 20% of the dataset was selected as
+the test set, 70% was selected as the training set, and the
+remaining 10% was used for validation.
+
+Since the optimization goal of both detectors is binary
+classification, we adopted binary cross-entropy as the loss
+function and the Adam optimizer32 with a learning rate
+of 0.0003. All of the training was conducted using 15
+epochs (training iterations) and validation loss was plotted with respect to the number of epochs completed. For
+the artefact detector, to improve generalization, we
+picked the model in the epoch that corresponds to the
+
+Downloaded from https://academic.oup.com/braincomms/article/4/1/fcab267/6420212 by Autonomous Organization of Education “Nazarbayev University” user on 20 February 2025
+
+Figure 3 Network input and architecture. (A) Network input images. The network input includes three images constructed from a onesecond raw EEG segment with a detected HFO in the centre (500 ms before and after). Left: The time-frequency plot was generated by
+continuous Gabor Wavelets ranging from 10 Hz to 500 Hz. Middle: EEG tracing plot was generated on a 2000  2000 image by scaling the timeseries signal into the 0 to 2000 range. Right: amplitude-coding plot contains the amplitude at every time point; a column of the image represented
+the signal’s actual value rescaled with a colour gradient. These three images were resized into 224  224 in order to fit into the neural network.
+(B) CNN architecture. The architecture of the model was adapted from Resnet-18. The last layer of the resnet18 was modified to be three fullyconnected layers with LeakyReLU, BatchNorm and 10% dropout in between. The output of the model was fed into a sigmoid function to bound
+the output between 0 and 1, representing the probability of each task. For task 2 (HFOs with spikes versus HFOs without spikes), the input
+consisted of the three images (time-frequency plot, EEG tracing plot and amplitude-coding plot). Meanwhile, for task 1 (Real HFOs versus
+artefacts), only the time-frequency plot information was found to be sufficient, and hence three same time-frequency plots were concatenated
+together as the input of the model. EEG ¼ electroencephalogram; HFO ¼ high-frequency oscillation; CNN ¼ convolutional neural network.
+
+10
+
+| BRAIN COMMUNICATIONS 2021: Page 10 of 20
+
+Discovery of epileptogenic HFOs via
+deep learning based on clinical
+outcomes and channel res
+(Content truncated due to size limit. Use line ranges to read in chunks)
