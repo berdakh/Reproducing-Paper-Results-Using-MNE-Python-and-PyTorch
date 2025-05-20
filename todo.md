@@ -1,5 +1,7 @@
 # Todo List for Reproducing Paper Results
 
+The paper: Refining epileptogenic high-frequency oscillations using deep learning: a reverse engineering approach
+
 - [ ] **Task 1: Detailed Review of Paper for Methods and Results**
     - [ ] Carefully read the 'Methods' section of fcab267_text.txt to understand all procedures.
     - [ ] Carefully read the 'Results' section of fcab267_text.txt to identify all tables and figures to be reproduced.
@@ -42,13 +44,4 @@
     - [ ] Train the spk-HFO detector model on the 'Real HFOs' identified by the first model (or synthetic labels).
     - [ ] Evaluate its performance (accuracy, F1-score).
     - [ ] If feasible, implement a simplified version of the eHFO/non-eHFO classification or the interpretability analysis (e.g., generating an 'inverted T-shape' plot).
-
-- [ ] **Task 6: Create Jupyter Notebook**
-    - [ ] Structure the Jupyter Notebook with clear sections: Introduction, Data Generation, Preprocessing, Feature Generation, Model Definition, Training, Evaluation, Results & Visualizations.
-    - [ ] Add markdown cells with explanations for each code snippet, detailing the purpose and methodology, referencing the paper where appropriate.
-    - [ ] Include visualizations of synthetic data, input features, and model results (e.g., performance metrics, example classifications, plots similar to those in the paper's results section).
-
-- [ ] **Task 7: Final Review and Delivery**
-    - [ ] Review the notebook for clarity, correctness, and completeness.
-    - [ ] Ensure all user requirements are addressed.
-    - [ ] Send the Jupyter Notebook file to the user.
+ 
